@@ -1,0 +1,17 @@
+{
+  "name": "gc-func",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx functions-framework --target=app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^2.1.0",
+    "@google-cloud/translate": "^6.3.1",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2"
+  }
+}
